@@ -257,55 +257,17 @@ ul {
 /***** Section 4 *****/
 .section-4 {
     padding-top: 50px;
-    color:black;
 }
-
-
-/***** Section 6 *****/
-
-.section-6-container{
-    padding-top: 50px;
-    background-color: white;
-}
-.section-6-box { padding-top: 30px; text-align: left; }
-
-
-/* Get in touch Name and email  form at the bottom  */
-
-.section-6-form  {
-	padding-top: 20px;
-    background: white; 
-    font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 300; color: #fff; 
-    transition: all .3s;
-	display: flex !important;
-	margin-left: 30px;
-    
-	
-	
-}
-
-
-.form2 { 
-	 border: 0; border-radius: 4px; 
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px; font-weight: 300; color: #fff; box-shadow: none;
-	margin-left: 170px !important;
-    padding-top: 20px;
-}
-
-
-
-
 
 /**bootstrap css style for carousel **/
 
 
-.carousel{ background: #f8f7f6; }
+.carousel{ background: #f1efed42; }
 #testimonial-slider{
     padding: 50px 20px 35px 20px;
     background: white;
     text-align: center;
-    box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
+    box-shadow: 0 0 50px 19px rgb(148, 194, 233);
     margin-left: 180px;
     
     
@@ -408,7 +370,41 @@ ul {
 }
 
 
+/***** Section 6 *****/
+
+.section-6-container{
+    padding-top: 50px;
+    background-color: white;
+}
+.section-6-box { padding-top: 30px; text-align: left; }
+
+
+/* Get in touch Name and email  form at the bottom  */
+
+.section-6-form  {
+	padding-top: 20px;
+    background: white; 
+    font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 300; color: #fff; 
+    transition: all .3s;
+	display: flex !important;
+	margin-left: 30px;
+    
+	
+	
+}
+
+
+.form2 { 
+	 border: 0; border-radius: 4px; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px; font-weight: 300; color: #fff; box-shadow: none;
+	margin-left: 170px !important;
+    padding-top: 20px;
+}
+
+
 
 
 /***** Footer didn't add anything yet  *****/
+
 
