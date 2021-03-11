@@ -167,17 +167,51 @@ ul {
     padding-top: 50px;
 }
 
-.section-3-box { margin-top: 30px; text-align: left; }
-
-.section-3-box .section-3-box-icon {
-	width: 60px; height: 60px; margin: 0 auto;
-	background: #3915d8;
-    font-size: 28px; color: #fff; line-height: 60px; text-align: center;
-    border-radius: 50%;
-	
-}
+.section-3-box { margin-top: 20px; text-align: left;  }
 
 .section-3-box h3 { margin-top: 0; padding: 0 0 10px 0; }
+
+.section-3-box ul {  margin-top: 50px; background: white;}
+
+.section-3-box ul li{
+    transition: transform 0.5s;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+    
+
+}
+
+.section-3-box ul li:hover {
+    z-index:100;
+    transform: scale(1.1);
+    background: #25bcff;
+    box-shadow: 0 5px 25px  rgba(0,0,0,.2);
+    color: #fff
+
+ }
+
+ .section-3-box ul li span{
+        width:40px;
+        height:20px;
+        text-align: center;
+        line-height: 20px;
+        background: #f3f5fa;
+        color:black;
+        display: inline-block ;
+        border-radius: 50%;
+        margin-right: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        transform: translateY(-20px);
+
+ }
+ .section-3-box ul li:hover span{
+    background: #25bcff;
+    color: #fff;
+ }
 
 
 /***** Section 4 *****/
