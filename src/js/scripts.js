@@ -11,3 +11,17 @@ $(document).ready(function(){
         autoPlay:true
     });
 });
+
+
+var btn = document 
+            .getElementsByClassName("collapse1"); 
+  
+        btn[0].addEventListener("click", function () { 
+            this.classList.toggle("active"); 
+            var content = this.nextElementSibling; 
+            if (content.style.display === "block") { 
+                content.style.display = "none"; 
+            } else { 
+                content.style.display = "block"; 
+            } 
+        }); 

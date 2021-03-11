@@ -252,6 +252,29 @@ ul {
     color: #fff;
  }
 
+ /*section 3 what is required of you */
+
+.collapse1 { 
+    background-color: white; 
+    border:none;
+    outline: none; 
+    font-size: 25px; 
+    margin-top: 40px;
+    
+} 
+.active1, 
+ .collapse1:hover { 
+    background: #25bcff;
+    color: #fff;
+    
+    } 
+  
+    .text { 
+        background-color:white; 
+        display: none; 
+        font-size: 20px;
+       
+    } 
 
 
 /***** Section 4 *****/
@@ -406,5 +429,30 @@ ul {
 
 
 /***** Footer didn't add anything yet  *****/
+
+
+/*about us */
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+    
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+
 
 
