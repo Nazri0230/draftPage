@@ -49,20 +49,56 @@ ul {
 .medium-paragraph { font-size: 18px; line-height: 34px; }
 
 
+/*nav bar including the logo*/
 
-
-  /* the logo on the top*/
-.logo_area {
-	width: 100%;
-	display: inline-flex;
-	justify-content: space-around;
-    padding-top: 4px;
-    
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand img
+{
+    width:250px;
    
-  }
+}
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+.navbar
+{
+   padding: 1em 0 !important; 
+}
+.navbar-nav{
+    margin-top: 1em;
+}
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+.banner
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.banner-text
+{
+    font-size: 36px;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
 
 
-  /*this logo is for 4 logos at bottom*/
+
+  
+  /*this logo is for 4 logos at bottom of the top content*/
 .logo  {
 	width: 100%;
 	display: inline-flex;
@@ -71,6 +107,9 @@ ul {
    
     
   }
+
+  /* Name and email in the top content*/
+
 .form-inline {
     align-items: flex;
     margin-left: 120px;
@@ -214,10 +253,10 @@ ul {
  }
 
 
+
 /***** Section 4 *****/
 .section-4 {
     padding-top: 50px;
-    
     color:black;
 }
 
@@ -231,7 +270,7 @@ ul {
 .section-6-box { padding-top: 30px; text-align: left; }
 
 
-/* contact form */
+/* Get in touch Name and email  form at the bottom  */
 
 .section-6-form  {
 	padding-top: 20px;
@@ -246,7 +285,6 @@ ul {
 }
 
 
-
 .form2 { 
 	 border: 0; border-radius: 4px; 
 	font-family: 'Roboto', sans-serif;
@@ -254,12 +292,6 @@ ul {
 	margin-left: 170px !important;
     padding-top: 20px;
 }
-
-
-
-
-
-
 
 
 
@@ -378,11 +410,5 @@ ul {
 
 
 
-/***** Footer *****/
-
-footer{
-   margin-left: 0em !important;
-   margin-right: 0em !important;
-
-}
+/***** Footer didn't add anything yet  *****/
 
