@@ -10,7 +10,14 @@ $(document).ready(function(){
         slideSpeed:1000,
         autoPlay:true
     });
-
+    
+    /*
+        Background slideshow
+    */
+	$('.top-content').backstretch("src/img");
+    $('.section-4-container').backstretch("assets/img/backgrounds/2.jpg");
+    $('.section-6-container').backstretch("assets/img/backgrounds/3.jpg");
+	$('.section-3-container').backstretch("assets/img/backgrounds/4.jpg");
     
                 /*
                     Wow

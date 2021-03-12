@@ -1,6 +1,8 @@
 /*General style*/
 
 body { 
+    margin: 0;
+    padding:0;
 	font-family: 'Roboto', 'sans'; 
 	font-size: 16px; 
 	font-weight: 300; 
@@ -40,11 +42,37 @@ h4 {
 	 color:black; 
 	 line-height: 26px; 
    }
+ header{
+       position:absolute;
+       z-index: -1;
+       Margin-left: auto !important;
+       margin-right:auto !important;
+       
+    
+   }
 p {
 	font-size: 16px;
    font-family: 'Open Sans';
    font-weight: 400;
    color: black;
+  }
+/* #backpic img{
+    Margin:0;
+    padding: 0;
+    position: relative;
+    
+
+} */
+  #wrapper{
+      width:100%;
+      Margin-left:auto;
+      Margin-right:auto;
+      min-width:300px;
+      max-width: 1100;
+      /* background-color:rgb(196, 245, 245); */
+      display: inline-flex;
+      padding:20px;
+
   }
 
 
@@ -63,7 +91,9 @@ p {
    
 }
 
-
+strong{
+    color:blue;
+}
 .navbar-brand
 {
     position: absolute;
@@ -141,9 +171,10 @@ p {
      
    }
 
-.section-container-gray-bg {
+/*.section-container-gray-bg {
     background: #f8f8f8;
     }
+    */
 
 .section-description {
     margin-top: 60px; 
@@ -155,8 +186,6 @@ p {
     padding: 0 120px;
     }
 
-
-
 /***** Divider *****/
 
 .divider-1 span { display: inline-block; width: 200px; border-bottom: 1px dotted #aaa; }
@@ -164,7 +193,7 @@ p {
 
 /***** Top content *****/
 
-.top-content { width: 100%; padding-top: 10px; color:#222; background-color:rgb(212, 194, 194); }
+.top-content { width: 100%; padding-top: 10px; color:#222;  }
 
 .top-content h1 { color: rgb(17, 17, 17); padding-top: 20px; }
 .top-content .description { margin: 30px 0 0 0; padding-bottom: 30px; }

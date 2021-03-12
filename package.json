@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KaliAbebe/Practera_Evelina_Gotlib_Proj.git"
+    "url": "git+https://github.com/KaliAbebe/draftPage.git"
   },
   "keywords": [
     "Engagement"
@@ -16,7 +16,7 @@
   "author": "\"Kalkidan Abebe, Nazrawit Mekonnen,Woldie Tsega\"",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KaliAbebe/Practera_Evelina_Gotlib_Proj/issues"
+    "url": "https://github.com/KaliAbebe/draftPage/issues"
   },
-  "homepage": "https://github.com/KaliAbebe/Practera_Evelina_Gotlib_Proj#readme"
+  "homepage": "https://github.com/KaliAbebe/drafPage#readme"
 }
