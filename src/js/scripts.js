@@ -10,6 +10,15 @@ $(document).ready(function(){
         slideSpeed:1000,
         autoPlay:true
     });
+
+    
+                /*
+                    Wow
+                */
+                new WOW().init()
+
+
+
 });
 
 
@@ -25,3 +34,13 @@ var btn = document
                 content.style.display = "block"; 
             } 
         }); 
+
+
+
+
+    
+
+
+
+
+

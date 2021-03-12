@@ -1,20 +1,20 @@
+/*General style*/
 
 body { 
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto', 'sans'; 
 	font-size: 16px; 
 	font-weight: 300; 
 	color: #888; 
 	line-height: 30px; 
 	text-align: center;
+    
  }
-
-
 
 h1 {
 	 margin-top: 10px; 
 	 font-size: 38px; 
-	 font-weight: 200px;
-	  color: #555; 
+	 font-weight: bold;
+	  color:black; 
 	  line-height: 50px;
 	  padding-left: 50px;
 	 }
@@ -22,31 +22,32 @@ h1 {
  h2 {
 		margin-top: 10px; 
 		font-size: 38px; 
-		font-weight: 100;
-		 color: #555; 
+		font-weight: bold;
+		 color:black; 
 		 line-height: 50px;
-		}
+	}
 h3 { 
 	font-size: 22px; 
-	font-weight: 300;
-	 color: #555; 
+	font-weight: bold;
+	 color: black; 
 	 line-height: 30px;
+
 	 }
 
 h4 {
 	 font-size: 18px;
-	  font-weight: 300;
-	   color: #555; 
-	   line-height: 26px; 
+	 font-weight: 300;
+	 color:black; 
+	 line-height: 26px; 
    }
 p {
 	font-size: 16px;
-}
+   font-family: 'Open Sans';
+   font-weight: 400;
+   color: black;
+  }
 
-ul { 
-    margin-top: 5em;
-}
-.medium-paragraph { font-size: 18px; line-height: 34px; }
+
 
 
 /*nav bar including the logo*/
@@ -61,6 +62,8 @@ ul {
     width:250px;
    
 }
+
+
 .navbar-brand
 {
     position: absolute;
@@ -71,6 +74,8 @@ ul {
 .navbar
 {
    padding: 1em 0 !important; 
+   
+   
 }
 .navbar-nav{
     margin-top: 1em;
@@ -97,15 +102,12 @@ ul {
 
 
 
-  
-  /*this logo is for 4 logos at bottom of the top content*/
+/*this logo is for 4 logos at bottom of the top content*/
 .logo  {
 	width: 100%;
 	display: inline-flex;
 	justify-content: space-around;
-	padding-top: 50px;
-   
-    
+	padding-top: 50px;   
   }
 
   /* Name and email in the top content*/
@@ -136,6 +138,7 @@ ul {
 .section-container {
     margin: 0 auto;
      padding-bottom: 80px; 
+     
    }
 
 .section-container-gray-bg {
@@ -154,8 +157,6 @@ ul {
 
 
 
-
-
 /***** Divider *****/
 
 .divider-1 span { display: inline-block; width: 200px; border-bottom: 1px dotted #aaa; }
@@ -163,7 +164,7 @@ ul {
 
 /***** Top content *****/
 
-.top-content { width: 100%; padding-top: 10px; color:#222 }
+.top-content { width: 100%; padding-top: 10px; color:#222; background-color:rgb(212, 194, 194); }
 
 .top-content h1 { color: rgb(17, 17, 17); padding-top: 20px; }
 .top-content .description { margin: 30px 0 0 0; padding-bottom: 30px; }
@@ -171,32 +172,74 @@ ul {
 
 
 /***** Section 1 *****/
-.section-1 {
-    padding-top: 50px;
-}
+.section-1 { padding-top: 50px;}
 
 .section-1-box { padding-top: 30px; text-align: left;  }
 
 .section-1-box .section-1-box-icon {
 	width: 60px; height: 60px; margin: 0 auto;
-	border: 1px solid #0f0f0f;
-    font-size: 20px; color: #111010; line-height: 60px; text-align: center;
+	border: 1px solid #fc1919;
+    font-size: 20px; color: #e62828; line-height: 60px; text-align: center;
     border-radius: 50%;
 }
 
 .section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 
 
-/***** Section 2 *****/
 
-.section-2 {
-    padding-top: 50px;
+/*section 7 located at the bottom of section 1*/
+
+.section-7-container{
+    background-color:rgb(212, 194, 194);
+}
+.section-7-container ul {
+    text-align: left;
+    list-style: none;
+    padding-top: 40px;
 }
 
+.section-7-container ul li:before {
+    padding: 5px 0px;  
+    content: '✓';
+}
+.section-7-container ul li{ 
+    font-family: 'open sans';
+    font-size: 16px;
+    color:black;
+    margin-top: 10px;
+}
+
+
+
+/***** Section 2 *****/
+
+.section-2 { padding-top: 50px;}
+.section-2-container { padding-bottom: 20px;}
 .section-2-box { margin-top: 30px; text-align: left; }
 .section-2-box h3 { margin-top: 0; }
-.section-2-box-text .medium-paragraph { margin-top: 20px; margin-bottom: 20px; }
+.section-2-box-text { margin-top: 20px; margin-bottom: 10px; }
 .section-2-box img { border-radius: 6px; }
+
+/*about us */
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5px;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 16px 16px 0 #c4c4e4, 0 0 0 1px #c3c3dd;
+    margin-top:20px;
+    background-color:rgb(208, 230, 216);
+    
+}
+.card1-title {
+    padding-top: 30px;
+}
+.card1-text{
+    padding-top: 10px;
+}
+
 
 
 /***** Section 3 *****/
@@ -204,6 +247,7 @@ ul {
 .section-3-container {
 	background: white;
     padding-top: 50px;
+    background-color: rgb(212, 194, 194);
 }
 
 .section-3-box { margin-top: 20px; text-align: left;  }
@@ -215,12 +259,13 @@ ul {
 .section-3-box ul li{
     transition: transform 0.5s;
     box-shadow: 0 5px 25px rgba(0,0,0,.1);
-    background: #fff;
+    background: white;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     list-style: none;
-    
-
+    font-family: 'open sans';
+    font-weight: 400;
+   
 }
 
 .section-3-box ul li:hover {
@@ -237,7 +282,7 @@ ul {
         height:20px;
         text-align: center;
         line-height: 20px;
-        background: #f3f5fa;
+        background: #d2d8e6;
         color:black;
         display: inline-block ;
         border-radius: 50%;
@@ -252,18 +297,21 @@ ul {
     color: #fff;
  }
 
- /*section 3 what is required of you */
+ /*section 3 what is required of you section */
 
 .collapse1 { 
     background-color: white; 
-    border:none;
+    line-height: 65px;
     outline: none; 
-    font-size: 25px; 
+    font-size: 20px; 
     margin-top: 40px;
+    font-weight: 500;
+    border-radius: 50%;
+    margin-right: 500px;
     
 } 
 .active1, 
- .collapse1:hover { 
+.collapse1:hover { 
     background: #25bcff;
     color: #fff;
     
@@ -273,6 +321,7 @@ ul {
         background-color:white; 
         display: none; 
         font-size: 20px;
+        margin-right: 500px;
        
     } 
 
@@ -282,7 +331,8 @@ ul {
     padding-top: 50px;
 }
 
-/**bootstrap css style for carousel **/
+
+/** section 4 bootstrap css style for carousel **/
 
 
 .carousel{ background: #f1efed42; }
@@ -392,6 +442,31 @@ ul {
     .owl-buttons{ bottom: 30%; }
 }
 
+/***** Section 5 *****/
+
+.section-5-container{
+    background-color:rgb(212, 194, 194)
+}
+.section-5-container ul{ 
+    text-align: left;
+    padding-top: 70px;
+
+   }
+   .section-5-container ul li{ 
+    text-align: left;
+    font-family: 'open sans';
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+
+    
+   }
+   .section-5-container ul li:before {
+    padding: 5px 0px;  
+    
+  }
+
+
 
 /***** Section 6 *****/
 
@@ -411,8 +486,6 @@ ul {
     transition: all .3s;
 	display: flex !important;
 	margin-left: 30px;
-    
-	
 	
 }
 
@@ -424,35 +497,3 @@ ul {
 	margin-left: 170px !important;
     padding-top: 20px;
 }
-
-
-
-
-/***** Footer didn't add anything yet  *****/
-
-
-/*about us */
-.card-block {
-    font-size: 1em;
-    position: relative;
-    margin: 0;
-    padding: 1em;
-    border: none;
-    border-top: 1px solid rgba(34, 36, 38, .1);
-    box-shadow: none;
-    
-     
-}
-.card {
-    font-size: 1em;
-    overflow: hidden;
-    padding: 5;
-    border: none;
-    border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-    margin-top:20px;
-}
-
-
-
-
